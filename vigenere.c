@@ -79,7 +79,7 @@ int main(int argc, string argv[]){
             
             new_input_ascii = input_ascii;
             
-        }  printf("%c",  (char) new_input_ascii;
+        }  printf("%c",  (char) new_input_ascii);
 
 	}
         printf("\n");
