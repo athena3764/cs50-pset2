@@ -53,7 +53,8 @@ int main(int argc, string argv[]){
 				input_index = input_ascii - 97;
 				key_index = lower_ascii - 97;
 				
-				/* Shift each index by the integer (key) and the key is maintained at 1 (a) to 26 (z)*/
+				/* Shift each index by the integer (key) and the key is 
+        maintained at 1 (a) to 26 (z)*/
 				new_input_index = (input_index  + key_index) % 26;
 				new_input_ascii = new_input_index + 97;
 				count++;
