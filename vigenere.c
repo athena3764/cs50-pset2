@@ -7,7 +7,8 @@
 
 int main(int argc, string argv[]){
 	
-	/*Only accept an alphbetical string (key) as a command-line argument*/
+	/*Only accept an alphbetical string (key) as a command-line 
+  argument*/
 	string key = argv[1];
 	if (argc == 2){
 		for (int j = 0, m = strlen(key); j < m; j++ ){
