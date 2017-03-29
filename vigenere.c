@@ -49,7 +49,6 @@ int main(int argc, string argv[]){
 				
 				/* Convert each lowercase input/key character into 0 - 25 
 				indexes */
-				
 				int lower_ascii = tolower(key_ascii);
 				input_index = input_ascii - 97;
 				key_index = lower_ascii - 97;
