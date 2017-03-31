@@ -4,7 +4,6 @@
 #include <ctype.h> 
 
 /*Implement a program that encrypts messages using Vigenère’s cipher.*/
-
 int main(int argc, string argv[]){
 	
 	/*Only accept an alphbetical string (key) as a command-line 
