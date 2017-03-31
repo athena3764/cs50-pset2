@@ -6,6 +6,7 @@
 
 /*Implement a program that encrypts messages using Caesar’s cipher 
 by shifting each letter by some number of places*/
+
 int key, ascii, index, new_index, new_ascii;
 int main(int argc, string argv[]){
   
